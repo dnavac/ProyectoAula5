@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Doctor Hub</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="Miestilo.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+       
+        <header class="header">
+        <nav class="nav">
+            <a href="index.html" class="logo nav-link">DoctorHub</a>
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a href="PreguntasFrecuentes.html" class="nav-menu-link nav-link" >Preguntas frecuentes</a></li>
+               
+                <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-link" >Registrarme</a>
+                    <ul>
+                        <li class="nav-menu-item"><a href="RegistroPaciente.jsp" class="nav-menu-link nav-link" >Como paciente</a></li>
+                       
+                        <li class="nav-menu-item"><a href="RegistroEspecialista.jsp" class="nav-menu-link nav-link">Como especialista</a></li>
+                       
+                      
+                    </ul>
+                </li>
+                <li class="nav-menu-item"><a href="InicioDeSesion.jsp" class="nav-menu-link nav-link">Iniciar sesión</a></li>
+                
+                <li class="nav-menu-item"><a href="RegistroEspecialista.jsp" class="nav-menu-link nav-link nav-doctor" >¿Eres doctor?</a></li>
+                
+            </ul>  
+        </nav>
+            
+            <section id="busqueda" class="nav-menu-busqueda">
+                <div class="container text-center text-sa-left">
+                <h1 class="h1">Encuentra tu especialista y pide cita</h1>
+                <h2 class="h2">Especialistas y profesionales están aquí para ayudarte</h2>
+                <br>
+                <div class="busqueda">
+                            <select class="controls" name="especialidad">
+                             <option>Pediatria</option>
+                             <option>Psicologia</option>
+                             <option>Neumologia</option>
+                             <option>Oftalmologo</option>
+                             <option>Urologia</option>
+                             <option>Ginecologia</option>
+                             <option>Medico General</option>
+                             <option>Odontologia</option>
+                             <option>Dermatologia</option>
+                             <option>Psiquiatria</option>
+                             </select>
+                          <select class="controls" name="ciudad">
+                             <option>Bogota</option>
+                             <option>Barranquilla</option>
+                             <option>Bucaramanga</option>
+                             <option>Cartagena</option>
+                             <option>Cali</option>
+                             <option>Medellin</option>
+                             <option>Monteria</option>
+                              </select>
+                </div>
+                    <input class="boton" type="submit" value="buscar" />
+                     </section>
+                </div>
+        </header>
+        
+   
+      
+    </body>   
+</html>
